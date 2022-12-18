@@ -29,10 +29,28 @@ footer {
     font-size: 10pt;
     padding-bottom: .7em;
     letter-spacing: .35ch;
+    text-align: center;
 }
 
 a, a:visited {
     color: rgb(139, 78, 62)
+}
+
+ol, ul {
+    padding-inline-start: min(80px, 13%);
+    overflow-wrap: break-word;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    margin-bottom: .75em;
 }
 
 a:hover, a:active {
@@ -56,3 +74,4 @@ a:hover, a:active {
 .fade {
     color: rgb(69, 46, 40, 60%);
 }
+
